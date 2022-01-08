@@ -2,6 +2,9 @@
 
 | command | description | example |
 :----------|:-------------|:----------|
+| ```awk```|print field (organized by $1,$2,$3,etc.) in a file - here we print the third one |```awk '{print $3}' file1 |
+| |print by regular expression - here we print where field 2 is more than field 3 |```awk '$2>$3' file1 |
+| |print by regular expression - here we print where field 1 is equal to "a" |```awk '$1 == "a" file1 |
 | ```cal``` | shows the calendar for this month | ```cal``` |
 | | calendar for year | ```cal 2020```|
 | | calendar for a month in specific year | ```cal 2 2020``` |
@@ -20,8 +23,14 @@
 | | copy an entire folder to your directory | ```cp -ir /home/folder1/ ./``` |
 | ```date``` | get the today's date | ```date``` |
 | ```du```|get the disk usage for for contents in a directory |```du```|
+|```echo```|echo a word to the output|```echo "hello world"```|
+| |echo a variable like your PATH| ```echo $PATH```|
+| |echo possible combinations|```echo {A,G,C,T}{A,G,C,T}```|
 | ```find```|finds files matching pattern (in this case all .txt files) in directory | ```find ./ -name "*.txt" print``` |
 | | find all .txt files in home directory |```find "$HOME/" -name "*.txt" print```|
+|```grep```| find occurences of a pattern in a file|```grep 'a' file1```|
+| |find occurences of a pattern regardles of case|```grep -i 'a' file1```|
+| |find number of occurences|```grep -c 'a' file1```|
 | ```jobs```|lists jobs waiting or running in the background (numbered like "%1,%2,%3,etc.") |```jobs``` |
 | |start job 4 again |```%4``` |
 |```kill```| kill a specific job|```kill %4``` |
@@ -39,6 +48,9 @@
 |```rm```|to **PERMANENTLY** remove a file |```rm file1``` |
 | | to **PERMANENTLY** remove a directory |```rm -r /home/folder1/``` |
 | ```rmdir```| also **PERMANENTLY** removes a directory| ```rmdir /home/folder1/```|
+|```sed```|replace pattern with another pattern in a file - here we replace "no" with "FALSE" |```sed 's/no/FALSE/g' file1``` |
+| | replace pattern with nothing |```sed 's/no//g' file1```|
+| ```sort```| sort by first column| ```sort file1```|
 | ```vi```|open a text editor. hit ```i``` to start writing, ```Esc``` then ```q!``` then ```Enter``` to leave and save | ```vi filetocreate```|
 
 
