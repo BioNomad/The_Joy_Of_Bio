@@ -1,7 +1,5 @@
 
-<p align="left">
-    <img src="https://github.com/BioNomad/The_Joy_Of_Bio/blob/main/docs/images/logo.PNG" >
-</p>
+![](/images/logo.PNG)
 
 _______________________________________________________________________________________________________________________________________________________________________________
 Bioinformatics is difficult and to make it less so, this repository lists solutions to bioinformatics problems, provides links to helpful databases, and links to useful tools.
