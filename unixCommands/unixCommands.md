@@ -2,9 +2,9 @@
 
 | command | description | example |
 :----------|:-------------|:----------|
-| ```awk```|print field (organized by $1,$2,$3,etc.) in a file - here we print the third one |```awk '{print $3}' file1 |
-| |print by regular expression - here we print where field 2 is more than field 3 |```awk '$2>$3' file1 |
-| |print by regular expression - here we print where field 1 is equal to "a" |```awk '$1 == "a" file1 |
+| ```awk```|print field (organized by $1,$2,$3,etc.) in a file - here we print the third one |```awk '{print $3}' file1``` |
+| |print by regular expression - here we print where field 2 is more than field 3 |```awk '$2>$3' file1``` |
+| |print by regular expression - here we print where field 1 is equal to "a" |```awk '$1 == "a" file1``` |
 | ```cal``` | shows the calendar for this month | ```cal``` |
 | | calendar for year | ```cal 2020```|
 | | calendar for a month in specific year | ```cal 2 2020``` |
@@ -51,7 +51,7 @@
 |```sed```|replace pattern with another pattern in a file - here we replace "no" with "FALSE" |```sed 's/no/FALSE/g' file1``` |
 | | replace pattern with nothing |```sed 's/no//g' file1```|
 | ```sort```| sort by first column| ```sort file1```|
-| ```vi```|open a text editor. hit ```i``` to start writing, ```Esc``` then ```q!``` then ```Enter``` to leave and save | ```vi filetocreate```|
+| ```vi```|open a text editor. hit ```i``` to start writing, ```Esc``` then ```:w``` then ```Enter``` then ```:q!``` then ```Enter``` to leave and save | ```vi filetocreate```|
 
 
 > This cheatsheet was adapted from the [University of Indiana Unix Command Introduction](https://kb.iu.edu/d/afsk)
