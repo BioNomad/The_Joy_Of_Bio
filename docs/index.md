@@ -1,6 +1,6 @@
 
 <p align="left">
-    <img src="https://github.com/BioNomad/The_Joy_Of_Bio/blob/main/images/logo.PNG" >
+    <img src="https://github.com/BioNomad/The_Joy_Of_Bio/blob/main/docs/images/logo.PNG" >
 </p>
 
 _______________________________________________________________________________________________________________________________________________________________________________
