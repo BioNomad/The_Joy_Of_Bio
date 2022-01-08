@@ -14,6 +14,33 @@
 | | to change into home directory | ```cd``` |
 | ```chmod``` | allow yourself to execute one of your own files | ```chmod u+x file``` |
 | | allow anyone with access to the directory to read/execute a file | ```chmod o+rx file``` |
+| ```cp``` | copy file (use the -i option to ensure original is kept) | ```cp -i file1 copyfile1``` |
+| | place file in another directory to yours | ```cp -i /home/folder1/subfolder1/file1 ./``` |
+| | place file in your directory into another | ```cp -i file1 /home/folder1/subfolder1/``` |
+| | copy an entire folder to your directory | ```cp -ir /home/folder1/ ./``` |
+| ```date``` | get the today's date | ```date``` |
+| ```du```|get the disk usage for for contents in a directory |```du```|
+| ```find```|finds files matching pattern (in this case all .txt files) in directory | ```find ./ -name "*.txt" print``` |
+| | find all .txt files in home directory |```find "$HOME/" -name "*.txt" print```|
+| ```jobs```|lists jobs waiting or running in the background (numbered like "%1,%2,%3,etc.") |```jobs``` |
+| |start job 4 again |```%4``` |
+|```kill```| kill a specific job|```kill %4``` |
+|```less/more```|these commands allow you to preview a file (NOT A BINARY FILE!!!) and go through it by hitting enter or space. leave the preview by pressing ```q``` |```less``` |
+| | |```more``` |
+|```ls```|see files in directory |```ls``` |
+| |see invisible files in directory (those starting with "." like a ".bashrc" file) | ```ls -a``` |
+| |see permissions and invisible files|```ls -la``` |
+|```man```|get the documentation for a command, for example ```ls``` |```man ls``` |
+|```mkdir```|make a directory |```mkdir newdir``` |
+| |make a directory in another folder|```mkdir /home/folder1/newdir``` |
+| ```mv```|rename a file, does not save the original|```mv -i oldname newname``` |
+|```ps```|what files are running? |```ps``` |
+| ```pwd```|print the working directory |```pwd``` |
+|```rm```|to **PERMANENTLY** remove a file |```rm file1``` |
+| | to **PERMANENTLY** remove a directory |```rm -r /home/folder1/``` |
+| ```rmdir```| also **PERMANENTLY** removes a directory| ```rmdir /home/folder1/```|
+| ```vi```|open a text editor. hit ```i``` to start writing, ```Esc``` then ```q!``` then ```Enter``` to leave and save | ```vi filetocreate```|
 
 
+> This cheatsheet was adapted from the [University of Indiana Unix Command Introduction](https://kb.iu.edu/d/afsk)
 
