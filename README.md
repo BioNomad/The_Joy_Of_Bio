@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/BioNomad/Bioinformatica/blob/main/images/background.jpg" >
+    <img src="https://github.com/BioNomad/The_Joy_Of_Bio/blob/main/images/logo.PNG" >
 </p>
 
 Bioinformatics is difficult and to make it less so, this repository lists solutions to bioinformatics problems, provides links to helpful databases, and links to useful tools.
