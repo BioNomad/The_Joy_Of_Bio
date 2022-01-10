@@ -6,7 +6,7 @@ ________________________________________________________________________________
 Bioinformatics is difficult and to make it less so, this repository lists solutions to bioinformatics problems, provides links to helpful databases, and links to useful tools. Also see the [GitHub Page](https://bionomad.github.io/The_Joy_Of_Bio/) for this repo.
 
 _______________________________________________________________________________________________________________________________________________________________________________
-* [Helpful Unix Commands](unixCommands/unixCommands.md)
+* [Helpful Unix Commands](docs/unixCommands/unixCommands.md)
 
   *list of unix commands for quick assessments of files/data*
   
