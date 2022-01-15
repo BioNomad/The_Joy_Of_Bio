@@ -1,7 +1,5 @@
+# The Joy of Bio
 
-![](/images/logo.PNG)
-
-_______________________________________________________________________________________________________________________________________________________________________________
 Bioinformatics is difficult and to make it less so, this repository lists solutions to bioinformatics problems, provides links to helpful databases, and links to useful tools.
 
 _______________________________________________________________________________________________________________________________________________________________________________
