@@ -13,10 +13,6 @@ ________________________________________________________________________________
 * [Statistical Tests](docs/statisticalTests/statisticalTests.md)
   
   *R functions to perform statistical tests and when to use them*
-   
-* Conversion Help (Genes, files, etc.)
-
-  *solutions to conversion problems (genes, files, etc.)*
 
 * Databases 
 
@@ -25,3 +21,7 @@ ________________________________________________________________________________
 * Tools
 
   *links and information on useful tools commonly used by bioinformaticians*
+
+* Conversion Help (Genes, files, etc.)
+
+  *solutions to conversion problems (genes, files, etc.)*
