@@ -1,8 +1,8 @@
 # Databases
 
-| | | |
+| category | database | description |
 :---------------------|:---------------------|:---------------------|
-| | | |
+| **chemicals and bioassays**| [PubChem](https://pubchem.ncbi.nlm.nih.gov/)| comprehensive database of chemical information |
 | | | |
 | | | |
 | | | |
