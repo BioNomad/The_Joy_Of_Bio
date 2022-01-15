@@ -1,5 +1,5 @@
 <p align="left">
-    <img src="https://github.com/BioNomad/The_Joy_Of_Bio/blob/main/header.PNG" >
+    <img src="https://github.com/BioNomad/The_Joy_Of_Bio/blob/main/images/header.PNG" >
 </p>
 
 _______________________________________________________________________________________________________________________________________________________________________________
