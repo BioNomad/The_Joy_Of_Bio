@@ -1,4 +1,4 @@
-<p align="left">
+<p align="center">
     <img src="https://github.com/BioNomad/The_Joy_Of_Bio/blob/main/images/header.PNG" >
 </p>
 
