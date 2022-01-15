@@ -11,7 +11,7 @@ ________________________________________________________________________________
   
   *R functions to perform statistical tests and when to use them*
 
-* Databases 
+* [Databases](databases/databases.md) 
 
   *links to useful databases and what they offer*
 
