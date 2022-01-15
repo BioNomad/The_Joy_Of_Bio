@@ -1,7 +1,7 @@
 # Statistical Tests
 
 | statistical test | description | example in R |
-:----------|:-------------|:----------|
+:---------------------|:---------------------|:---------------------|
 | **one sample t-test**| test whether a sample mean significantly differs from a hypothesized value (assumes your vairable is normally distributed)| ```t.test(data, mu = meanToTest)``` |
 |**one sample median test** | test whether a sample median differs significantly from a hypothesized value (does not assume your variable is normally distributed) | ```wilcox.test(data, mu = medianToTest, alternative = "two.sided")```|
 | **binomial test** | test whether the proportion of successes on a two-level categorical dependent variable significantly differs from a hypothesized value - | ```binom.test(numberOfActualSuccesses, numberOfTrialsYouDo, probabilityOfSuccessToTest)``` |
