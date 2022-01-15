@@ -7,7 +7,7 @@ ________________________________________________________________________________
 
   *list of unix commands for quick assessments of files/data*
   
-* Statistical Tests
+* [Statistical Tests](/statisticalTests/statisticalTests.md)
   
   *R functions to perform statistical tests and when to use them*
    
