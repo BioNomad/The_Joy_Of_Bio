@@ -23,3 +23,7 @@
 | **correlation**| tests for a relationship between normally distributed variables | ```cor.test(variable1, variable2, method="pearson")``` |
 | **non-parametric correlation** | tests for a relationship between non-normally distributed variables | ```cor.test(variable1, variable2, method="spearman")```|
 | **one-way multivariate analysis of variance(MANOVA)** | assess how two or more dependent variables are affected by a categorical variable | ```manova(cbind(numericDependentVariable1, numericDependentVariable2) ~ independentCategoricalVariable, data = dataframeWithAllTheVariables)``` |
+
+> This cheatsheet was adapted from content [UCLA Statistical Methods and Analysis](https://stats.oarc.ucla.edu/stata/whatstat/what-statistical-analysis-should-i-usestatistical-analyses-using-stata/), [Statology](https://www.statology.org/), and [STHDA](http://www.sthda.com/)
+
+[Return to the Main Page](../index.md)
