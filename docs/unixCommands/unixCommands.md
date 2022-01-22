@@ -51,7 +51,7 @@
 |```sed```|replace pattern with another pattern in a file - here we replace "no" with "FALSE" |```sed 's/no/FALSE/g' file1``` |
 | | replace pattern with nothing |```sed 's/no//g' file1```|
 | ```sort```| sort by first column| ```sort file1```|
-| ```vi```|open a text editor. hit ```i``` to start writing, ```Esc``` then ```:w``` then ```Enter``` then ```:q!``` then ```Enter``` to leave and save | ```vi filetocreate```|
+| ```vi```|open a text editor. hit ```i``` to start writing, ```Esc``` then ```:wq``` then ```Enter``` to leave and save | ```vi filetocreate```|
 
 
 > This cheatsheet was adapted from the [University of Indiana Unix Command Introduction](https://kb.iu.edu/d/afsk)
